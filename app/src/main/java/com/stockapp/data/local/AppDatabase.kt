@@ -36,7 +36,7 @@ import com.stockapp.data.model.NewsPreferences
 import com.stockapp.data.model.PortfolioSummary
 import com.stockapp.data.model.Screener
 import com.stockapp.data.model.ScreenerResult
-import com.stockapp.data.model.Settings
+import com.stockapp.data.model.AppSettings
 import com.stockapp.data.model.Transaction
 import com.stockapp.data.model.User
 import com.stockapp.data.model.WeeklyPortfolioSummary
