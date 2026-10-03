@@ -40,8 +40,11 @@ android {
 
     kotlinOptions {
         jvmTarget = "17"
-        freeCompilerArgs += listOf("-Xopt-in=kotlin.RequiresOptIn")
-    }
+            freeCompilerArgs += listOf(
+                "-Xopt-in=kotlin.RequiresOptIn",
+                "-language-version=1.9"
+            )
+        }
 
     buildFeatures {
         compose = true
@@ -62,7 +65,16 @@ android {
     namespace = "com.stockapp"
 }
 
-dependencies {
+    kapt {
+        javacOptions {
+            option("-Xlint:unchecked")
+            option("-Xlint:deprecation")
+        }
+        correctErrorTypes = true
+        useBuildCache = true
+    }
+
+    dependencies {
     // Core Android
     implementation("androidx.core:core-ktx:1.13.1")
     implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.7.0")
