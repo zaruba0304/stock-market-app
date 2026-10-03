@@ -84,7 +84,7 @@
                 <item name="risk_medium">#EF6C00</item>
                 <item name="risk_high">#C62828</item>
 
-                <item name="divider">#E0E0E0</item>
+                <item name="custom_divider">#E0E0E0</item>
 
                 <!-- Typography -->
         <item name="textAppearanceHeadlineLarge">@style/TextAppearance.StockApp.HeadlineLarge</item>

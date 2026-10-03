@@ -84,6 +84,6 @@
         <item name="risk_medium">#FFB74D</item>
         <item name="risk_high">#EF5350</item>
 
-        <item name="divider">#3D3D3D</item>
+        <item name="custom_divider">#3D3D3D</item>
     </style>
 </resources>

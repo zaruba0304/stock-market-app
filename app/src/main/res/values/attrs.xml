@@ -34,5 +34,5 @@
     <attr name="risk_high" format="color" />
 
     <!-- Custom color attribute for divider -->
-    <attr name="divider" format="color" />
+        <attr name="custom_divider" format="color" />
 </resources>
