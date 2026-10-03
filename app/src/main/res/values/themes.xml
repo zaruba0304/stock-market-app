@@ -55,7 +55,38 @@
         <item name="android:windowBackground">@color/background</item>
         <item name="android:windowDrawsSystemBarBackgrounds">true</item>
 
-        <!-- Typography -->
+                <!-- Custom colors for light mode -->
+                <item name="profit">#2E7D32</item>
+                <item name="profit_light">#C8E6C9</item>
+                <item name="loss">#C62828</item>
+                <item name="loss_light">#FFCDD2</item>
+                <item name="warning">#EF6C00</item>
+                <item name="warning_light">#FFF3E0</item>
+                <item name="info">#1565C0</item>
+                <item name="info_light">#E3F2FD</item>
+
+                <item name="ipo_open">#2E7D32</item>
+                <item name="ipo_upcoming">#1565C0</item>
+                <item name="ipo_allotment">#EF6C00</item>
+                <item name="ipo_listed">#7B1FA2</item>
+                <item name="ipo_closed">#757575</item>
+
+                <item name="impact_critical">#C62828</item>
+                <item name="impact_high">#EF6C00</item>
+                <item name="impact_medium">#1565C0</item>
+                <item name="impact_low">#757575</item>
+
+                <item name="sentiment_positive">#2E7D32</item>
+                <item name="sentiment_negative">#C62828</item>
+                <item name="sentiment_neutral">#757575</item>
+
+                <item name="risk_low">#2E7D32</item>
+                <item name="risk_medium">#EF6C00</item>
+                <item name="risk_high">#C62828</item>
+
+                <item name="divider">#E0E0E0</item>
+
+                <!-- Typography -->
         <item name="textAppearanceHeadlineLarge">@style/TextAppearance.StockApp.HeadlineLarge</item>
         <item name="textAppearanceHeadlineMedium">@style/TextAppearance.StockApp.HeadlineMedium</item>
         <item name="textAppearanceHeadlineSmall">@style/TextAppearance.StockApp.HeadlineSmall</item>

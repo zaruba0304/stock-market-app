@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Custom color attributes for portfolio -->
+    <attr name="profit" format="color" />
+    <attr name="profit_light" format="color" />
+    <attr name="loss" format="color" />
+    <attr name="loss_light" format="color" />
+    <attr name="warning" format="color" />
+    <attr name="warning_light" format="color" />
+    <attr name="info" format="color" />
+    <attr name="info_light" format="color" />
+
+    <!-- Custom color attributes for IPO status -->
+    <attr name="ipo_open" format="color" />
+    <attr name="ipo_upcoming" format="color" />
+    <attr name="ipo_allotment" format="color" />
+    <attr name="ipo_listed" format="color" />
+    <attr name="ipo_closed" format="color" />
+
+    <!-- Custom color attributes for news impact -->
+    <attr name="impact_critical" format="color" />
+    <attr name="impact_high" format="color" />
+    <attr name="impact_medium" format="color" />
+    <attr name="impact_low" format="color" />
+
+    <!-- Custom color attributes for sentiment -->
+    <attr name="sentiment_positive" format="color" />
+    <attr name="sentiment_negative" format="color" />
+    <attr name="sentiment_neutral" format="color" />
+
+    <!-- Custom color attributes for risk -->
+    <attr name="risk_low" format="color" />
+    <attr name="risk_medium" format="color" />
+    <attr name="risk_high" format="color" />
+
+    <!-- Custom color attribute for divider -->
+    <attr name="divider" format="color" />
+</resources>
