@@ -1,4 +1,4 @@
-<resources>
+﻿<resources>
     <string name="app_name">StockApp</string>
 
     <!-- Navigation -->
@@ -13,7 +13,7 @@
     <!-- Home Screen -->
     <string name="home_welcome">Welcome back</string>
     <string name="home_portfolio_value">Portfolio Value</string>
-    <string name="home_today_pnl">Today\'s P&L</string>
+    <string name="home_today_pnl">Today's P&L</string>
     <string name="home_total_invested">Total Invested</string>
     <string name="home_total_returns">Total Returns</string>
     <string name="home_quick_actions">Quick Actions</string>
