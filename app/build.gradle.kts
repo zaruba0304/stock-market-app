@@ -115,8 +115,11 @@ android {
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.8.0")
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-play-services:1.8.0")
 
-    // Serialization
-    implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.6.3")
+        // DateTime
+        implementation("org.jetbrains.kotlinx:kotlinx-datetime:0.6.1")
+
+        // Serialization
+        implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.6.3")
 
     // Coil Image Loading
     implementation("io.coil-kt:coil-compose:2.6.0")
