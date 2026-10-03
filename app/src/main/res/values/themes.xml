@@ -162,13 +162,13 @@
     </style>
 
     <!-- Chip Style -->
-        <style name="Widget.StockApp.Chip" parent="Widget.Material3.Chip">
+        <style name="Widget.StockApp.Chip" parent="Widget.MaterialComponents.Chip.Entry">
         <item name="chipCornerRadius">16dp</item>
         <item name="chipMinHeight">32dp</item>
     </style>
 
     <!-- Card Style -->
-        <style name="Widget.StockApp.Card" parent="Widget.Material3.CardView">
+        <style name="Widget.StockApp.Card" parent="Widget.MaterialComponents.CardView">
         <item name="cardCornerRadius">16dp</item>
         <item name="cardElevation">2dp</item>
     </style>
