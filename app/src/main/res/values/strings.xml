@@ -1,4 +1,4 @@
-﻿<resources>
+<resources>
     <string name="app_name">StockApp</string>
 
     <!-- Navigation -->
@@ -13,7 +13,7 @@
     <!-- Home Screen -->
     <string name="home_welcome">Welcome back</string>
     <string name="home_portfolio_value">Portfolio Value</string>
-    <string name="home_today_pnl">Today\'s P&amp;L</string>
+    <string name="home_today_pnl">Today\'s P&L</string>
     <string name="home_total_invested">Total Invested</string>
     <string name="home_total_returns">Total Returns</string>
     <string name="home_quick_actions">Quick Actions</string>
@@ -23,6 +23,22 @@
     <string name="home_check_ipo">Check IPO Status</string>
     <string name="home_view_news">View News</string>
     <string name="home_run_screener">Run Screener</string>
+
+    <!-- Additional Home Strings -->
+    <string name="good_morning">Good Morning</string>
+    <string name="good_afternoon">Good Afternoon</string>
+    <string name="good_evening">Good Evening</string>
+    <string name="good_night">Good Night</string>
+    <string name="portfolio_snapshot">Portfolio Snapshot</string>
+    <string name="total_value">Total Value</string>
+    <string name="day_change">Day Change</string>
+    <string name="invested">Invested</string>
+    <string name="holdings">Holdings</string>
+    <string name="quick_actions">Quick Actions</string>
+    <string name="top_gainers">Top Gainers</string>
+    <string name="top_losers">Top Losers</string>
+    <string name="upcoming_ipos">Upcoming IPOs</string>
+    <string name="latest_news">Latest News</string>
 
     <!-- IPO Screen -->
     <string name="ipo_title">IPO Applications</string>
@@ -46,6 +62,34 @@
     <string name="ipo_filter">Filter</string>
     <string name="ipo_sort">Sort</string>
 
+    <!-- Additional IPO Strings -->
+    <string name="ipo_center">IPO Center</string>
+    <string name="track_apply_ipos">Track & Apply IPOs</string>
+    <string name="ipo_status">IPO Status</string>
+    <string name="open">Open</string>
+    <string name="upcoming">Upcoming</string>
+    <string name="allotment">Allotment</string>
+    <string name="listed">Listed</string>
+    <string name="closed">Closed</string>
+    <string name="price_band">Price Band</string>
+    <string name="lot_size">Lot Size</string>
+    <string name="issue_size">Issue Size</string>
+    <string name="gmp">GMP</string>
+    <string name="days_left">Days Left</string>
+    <string name="apply">Apply</string>
+    <string name="details">Details</string>
+    <string name="watchlist">Watchlist</string>
+    <string name="add_to_watchlist">Add to Watchlist</string>
+    <string name="remove_from_watchlist">Remove from Watchlist</string>
+    <string name="registrar">Registrar</string>
+    <string name="listing_date">Listing Date</string>
+    <string name="face_value">Face Value</string>
+    <string name="pe_ratio">P/E Ratio</string>
+    <string name="subscription">Subscription</string>
+    <string name="qib">QIB</string>
+    <string name="hni">HNI</string>
+    <string name="retail">Retail</string>
+
     <!-- Portfolio Screen -->
     <string name="portfolio_title">Portfolio</string>
     <string name="portfolio_holdings">Holdings</string>
@@ -55,8 +99,8 @@
     <string name="portfolio_quantity">Qty</string>
     <string name="portfolio_avg_price">Avg Price</string>
     <string name="portfolio_current_price">Current Price</string>
-    <string name="portfolio_pnl">P&amp;L</string>
-    <string name="portfolio_pnl_percent">P&amp;L %</string>
+    <string name="portfolio_pnl">P&L</string>
+    <string name="portfolio_pnl_percent">P&L %</string>
     <string name="portfolio_invested">Invested</string>
     <string name="portfolio_current_value">Current Value</string>
     <string name="portfolio_day_change">Day Change</string>
@@ -67,6 +111,21 @@
     <string name="portfolio_search_hint">Search holdings</string>
     <string name="portfolio_filter_broker">Filter by Broker</string>
     <string name="portfolio_sort_by">Sort by</string>
+
+    <!-- Additional Portfolio Strings -->
+    <string name="portfolio">Portfolio</string>
+    <string name="my_holdings">My Holdings</string>
+    <string name="quantity">Quantity</string>
+    <string name="avg_price">Avg Price</string>
+    <string name="current_price">Current Price</string>
+    <string name="invested_value">Invested Value</string>
+    <string name="current_value">Current Value</string>
+    <string name="profit_loss">Profit/Loss</string>
+    <string name="day_change_percent">Day Change %</string>
+    <string name="sync_portfolio">Sync Portfolio</string>
+    <string name="last_synced">Last Synced</string>
+    <string name="no_holdings">No Holdings</string>
+    <string name="portfolio_empty">Your portfolio is empty. Sync with your broker to get holdings.</string>
 
     <!-- News Screen -->
     <string name="news_title">News</string>
@@ -85,6 +144,28 @@
     <string name="news_filter_impact">Filter by Impact</string>
     <string name="news_daily_recap">Daily Recap</string>
     <string name="news_weekly_summary">Weekly Summary</string>
+
+    <!-- Additional News Strings -->
+    <string name="news_analysis">News & Analysis</string>
+    <string name="realtime_updates">Real-time updates for your portfolio</string>
+    <string name="daily_market_recap">Daily Market Recap</string>
+    <string name="articles_analyzed">Articles Analyzed</string>
+    <string name="critical_alerts">Critical Alerts</string>
+    <string name="high_impact_news">High Impact News</string>
+    <string name="top_positive">Top Positive</string>
+    <string name="top_negative">Top Negative</string>
+    <string name="portfolio_stocks_in_news">Portfolio Stocks in News</string>
+    <string name="sentiment">Sentiment</string>
+    <string name="impact">Impact</string>
+    <string name="positive">Positive</string>
+    <string name="negative">Negative</string>
+    <string name="neutral">Neutral</string>
+    <string name="critical">Critical</string>
+    <string name="high">High</string>
+    <string name="medium">Medium</string>
+    <string name="low">Low</string>
+    <string name="mark_read">Mark as Read</string>
+    <string name="mark_unread">Mark as Unread</string>
 
     <!-- Screeners Screen -->
     <string name="screeners_title">Screeners</string>
@@ -107,6 +188,31 @@
     <string name="screeners_growth">Growth</string>
     <string name="screeners_custom">Custom</string>
 
+    <!-- Additional Screeners Strings -->
+    <string name="screeners">Screeners</string>
+    <string name="find_opportunities">Find Investment Opportunities</string>
+    <string name="select_screener">Select Screener</string>
+    <string name="run_screener">Run Screener</string>
+    <string name="this_weeks_picks">This Week\'s Picks</string>
+    <string name="results">Results</string>
+    <string name="score">Score</string>
+    <string name="current">Current</string>
+    <string name="target">Target</string>
+    <string name="stop_loss">Stop Loss</string>
+    <string name="confidence">Confidence</string>
+    <string name="risk_level">Risk Level</string>
+    <string name="time_horizon">Time Horizon</string>
+    <string name="ai_generated">AI Generated</string>
+    <string name="fundamental">Fundamental</string>
+    <string name="technical">Technical</string>
+    <string name="momentum">Momentum</string>
+    <string name="value">Value</string>
+    <string name="growth">Growth</string>
+    <string name="custom">Custom</string>
+    <string name="short_term">Short Term</string>
+    <string name="medium_term">Medium Term</string>
+    <string name="long_term">Long Term</string>
+
     <!-- AI Screen -->
     <string name="ai_title">AI Analysis</string>
     <string name="ai_generate_insights">Generate Insights</string>
@@ -123,6 +229,25 @@
     <string name="ai_analysis_type">Analysis Type</string>
     <string name="ai_select_stock">Select a stock</string>
     <string name="ai_enter_query">Enter your query</string>
+
+    <!-- Additional AI Strings -->
+    <string name="ai_insights">AI Insights</string>
+    <string name="smart_analysis">Smart Analysis powered by AI</string>
+    <string name="ask_ai">Ask AI</string>
+    <string name="portfolio_insights">Portfolio Insights</string>
+    <string name="generate_insights">Generate Insights</string>
+    <string name="analysis_type">Analysis Type</string>
+    <string name="portfolio_review">Portfolio Review</string>
+    <string name="stock_analysis">Stock Analysis</string>
+    <string name="market_outlook">Market Outlook</string>
+    <string name="risk_assessment">Risk Assessment</string>
+    <string name="ipo_analysis">IPO Analysis</string>
+    <string name="news_summary">News Summary</string>
+    <string name="custom_query">Custom Query</string>
+    <string name="recommendation">Recommendation</string>
+    <string name="buy">Buy</string>
+    <string name="sell">Sell</string>
+    <string name="hold">Hold</string>
 
     <!-- Settings Screen -->
     <string name="settings_title">Settings</string>
@@ -169,8 +294,45 @@
     <string name="settings_version">Version</string>
     <string name="settings_privacy_policy">Privacy Policy</string>
     <string name="settings_terms">Terms of Service</string>
-    <string name="settings_help">Help &amp; Support</string>
+    <string name="settings_help">Help & Support</string>
     <string name="settings_feedback">Send Feedback</string>
+
+    <!-- Additional Settings Strings -->
+    <string name="family_members">Family Members</string>
+    <string name="add_member">Add Member</string>
+    <string name="brokerage_accounts">Brokerage Accounts</string>
+    <string name="add_account">Add Account</string>
+    <string name="connected">Connected</string>
+    <string name="not_connected">Not Connected</string>
+    <string name="connect">Connect</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="api_key">API Key</string>
+    <string name="api_secret">API Secret</string>
+    <string name="user_id">User ID</string>
+    <string name="name">Name</string>
+    <string name="pan_number">PAN Number</string>
+    <string name="demat_account">Demat Account</string>
+    <string name="primary">Primary</string>
+    <string name="set_primary">Set Primary</string>
+    <string name="light">Light</string>
+    <string name="dark">Dark</string>
+    <string name="system">System</string>
+    <string name="english">English</string>
+    <string name="hindi">Hindi</string>
+    <string name="minutes">Minutes</string>
+    <string name="export_data">Export Data</string>
+    <string name="clear_cache">Clear Cache</string>
+    <string name="delete_all_data">Delete All Data</string>
+
+    <!-- Dialogs -->
+    <string name="add_family_member">Add Family Member</string>
+    <string name="connect_brokerage">Connect Brokerage</string>
+    <string name="enter_name">Enter Name</string>
+    <string name="enter_pan">Enter PAN Number</string>
+    <string name="enter_demat">Enter Demat Account Number</string>
+    <string name="enter_api_key">Enter API Key</string>
+    <string name="enter_api_secret">Enter API Secret</string>
+    <string name="enter_user_id">Enter User ID/Client ID</string>
 
     <!-- Common -->
     <string name="common_save">Save</string>
@@ -207,6 +369,17 @@
     <string name="notification_action_dismiss">Dismiss</string>
     <string name="notification_action_view">View</string>
 
+    <!-- Additional Notification Strings -->
+    <string name="ipo_opening">IPO Opening</string>
+    <string name="ipo_closing_soon">IPO Closing Soon</string>
+    <string name="allotment_status">Allotment Status</string>
+    <string name="ipo_listed">IPO Listed</string>
+    <string name="target_hit">Target Hit</string>
+    <string name="stop_loss_triggered">Stop Loss Triggered</string>
+    <string name="significant_move">Significant Move</string>
+    <string name="daily_recap_ready">Daily Recap Ready</string>
+    <string name="weekly_summary_ready">Weekly Summary Ready</string>
+
     <!-- Errors -->
     <string name="error_network">Network error. Please check your connection.</string>
     <string name="error_server">Server error. Please try again later.</string>
@@ -216,6 +389,12 @@
     <string name="error_encryption">Data encryption failed.</string>
     <string name="error_database">Database error.</string>
     <string name="error_sync">Sync failed. Please try again.</string>
+
+    <!-- Additional Error Strings -->
+    <string name="network_error">Network error. Please check your connection.</string>
+    <string name="auth_error">Authentication failed. Please try again.</string>
+    <string name="sync_failed">Sync failed. Please try again.</string>
+    <string name="no_data">No data available</string>
 
     <!-- Biometric -->
     <string name="biometric_title">Biometric Authentication</string>
