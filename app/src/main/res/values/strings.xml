@@ -169,7 +169,7 @@
     <string name="settings_version">Version</string>
     <string name="settings_privacy_policy">Privacy Policy</string>
     <string name="settings_terms">Terms of Service</string>
-    <string name="settings_help">Help & Support</string>
+    <string name="settings_help">Help &amp; Support</string>
     <string name="settings_feedback">Send Feedback</string>
 
     <!-- Common -->
