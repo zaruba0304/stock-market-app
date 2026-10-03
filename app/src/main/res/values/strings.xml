@@ -1,0 +1,233 @@
+<resources>
+    <string name="app_name">StockApp</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_ipo">IPO</string>
+    <string name="nav_portfolio">Portfolio</string>
+    <string name="nav_news">News</string>
+    <string name="nav_screeners">Screeners</string>
+    <string name="nav_ai">AI Analysis</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Home Screen -->
+    <string name="home_welcome">Welcome back</string>
+    <string name="home_portfolio_value">Portfolio Value</string>
+    <string name="home_today_pnl">Today\'s P&L</string>
+    <string name="home_total_invested">Total Invested</string>
+    <string name="home_total_returns">Total Returns</string>
+    <string name="home_quick_actions">Quick Actions</string>
+    <string name="home_recent_activity">Recent Activity</string>
+    <string name="home_no_data">No data available</string>
+    <string name="home_sync_portfolio">Sync Portfolio</string>
+    <string name="home_check_ipo">Check IPO Status</string>
+    <string name="home_view_news">View News</string>
+    <string name="home_run_screener">Run Screener</string>
+
+    <!-- IPO Screen -->
+    <string name="ipo_title">IPO Applications</string>
+    <string name="ipo_upcoming">Upcoming IPOs</string>
+    <string name="ipo_open">Open IPOs</string>
+    <string name="ipo_closed">Closed IPOs</string>
+    <string name="ipo_allotted">Allotted</string>
+    <string name="ipo_not_allotted">Not Allotted</string>
+    <string name="ipo_pending">Pending</string>
+    <string name="ipo_gmp">GMP</string>
+    <string name="ipo_price_band">Price Band</string>
+    <string name="ipo_lot_size">Lot Size</string>
+    <string name="ipo_open_date">Open Date</string>
+    <string name="ipo_close_date">Close Date</string>
+    <string name="ipo_listing_date">Listing Date</string>
+    <string name="ipo_apply">Apply</string>
+    <string name="ipo_watchlist">Add to Watchlist</string>
+    <string name="ipo_check_status">Check Status</string>
+    <string name="ipo_no_data">No IPOs available</string>
+    <string name="ipo_search_hint">Search IPOs</string>
+    <string name="ipo_filter">Filter</string>
+    <string name="ipo_sort">Sort</string>
+
+    <!-- Portfolio Screen -->
+    <string name="portfolio_title">Portfolio</string>
+    <string name="portfolio_holdings">Holdings</string>
+    <string name="portfolio_transactions">Transactions</string>
+    <string name="portfolio_summary">Summary</string>
+    <string name="portfolio_symbol">Symbol</string>
+    <string name="portfolio_quantity">Qty</string>
+    <string name="portfolio_avg_price">Avg Price</string>
+    <string name="portfolio_current_price">Current Price</string>
+    <string name="portfolio_pnl">P&L</string>
+    <string name="portfolio_pnl_percent">P&L %</string>
+    <string name="portfolio_invested">Invested</string>
+    <string name="portfolio_current_value">Current Value</string>
+    <string name="portfolio_day_change">Day Change</string>
+    <string name="portfolio_top_gainers">Top Gainers</string>
+    <string name="portfolio_top_losers">Top Losers</string>
+    <string name="portfolio_sync_all">Sync All Brokers</string>
+    <string name="portfolio_no_holdings">No holdings yet</string>
+    <string name="portfolio_search_hint">Search holdings</string>
+    <string name="portfolio_filter_broker">Filter by Broker</string>
+    <string name="portfolio_sort_by">Sort by</string>
+
+    <!-- News Screen -->
+    <string name="news_title">News</string>
+    <string name="news_breaking">Breaking News</string>
+    <string name="news_portfolio">Portfolio News</string>
+    <string name="news_market">Market News</string>
+    <string name="news_impact_high">High Impact</string>
+    <string name="news_impact_medium">Medium Impact</string>
+    <string name="news_impact_low">Low Impact</string>
+    <string name="news_read_more">Read More</string>
+    <string name="news_mark_read">Mark as Read</string>
+    <string name="news_share">Share</string>
+    <string name="news_no_data">No news available</string>
+    <string name="news_refresh">Refresh</string>
+    <string name="news_search_hint">Search news</string>
+    <string name="news_filter_impact">Filter by Impact</string>
+    <string name="news_daily_recap">Daily Recap</string>
+    <string name="news_weekly_summary">Weekly Summary</string>
+
+    <!-- Screeners Screen -->
+    <string name="screeners_title">Screeners</string>
+    <string name="screeners_my_screeners">My Screeners</string>
+    <string name="screeners_default">Default Screeners</string>
+    <string name="screeners_results">Results</string>
+    <string name="screeners_weekly_picks">Weekly Picks</string>
+    <string name="screeners_run">Run Screener</string>
+    <string name="screeners_edit">Edit Screener</string>
+    <string name="screeners_delete">Delete Screener</string>
+    <string name="screeners_create_new">Create New Screener</string>
+    <string name="screeners_name">Screener Name</string>
+    <string name="screeners_type">Type</string>
+    <string name="screeners_criteria">Criteria</string>
+    <string name="screeners_no_data">No screeners available</string>
+    <string name="screeners_fundamental">Fundamental</string>
+    <string name="screeners_technical">Technical</string>
+    <string name="screeners_momentum">Momentum</string>
+    <string name="screeners_value">Value</string>
+    <string name="screeners_growth">Growth</string>
+    <string name="screeners_custom">Custom</string>
+
+    <!-- AI Screen -->
+    <string name="ai_title">AI Analysis</string>
+    <string name="ai_generate_insights">Generate Insights</string>
+    <string name="ai_portfolio_review">Portfolio Review</string>
+    <string name="ai_stock_analysis">Stock Analysis</string>
+    <string name="ai_market_outlook">Market Outlook</string>
+    <string name="ai_risk_assessment">Risk Assessment</string>
+    <string name="ai_ipo_analysis">IPO Analysis</string>
+    <string name="ai_news_summary">News Summary</string>
+    <string name="ai_custom_query">Custom Query</string>
+    <string name="ai_ask_question">Ask a question</string>
+    <string name="ai_thinking">Thinking...</string>
+    <string name="ai_no_analyses">No analyses yet</string>
+    <string name="ai_analysis_type">Analysis Type</string>
+    <string name="ai_select_stock">Select a stock</string>
+    <string name="ai_enter_query">Enter your query</string>
+
+    <!-- Settings Screen -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_account">Account</string>
+    <string name="settings_users">Family Members</string>
+    <string name="settings_add_user">Add Family Member</string>
+    <string name="settings_edit_user">Edit User</string>
+    <string name="settings_delete_user">Delete User</string>
+    <string name="settings_primary_user">Primary User</string>
+    <string name="settings_name">Name</string>
+    <string name="settings_pan">PAN Number</string>
+    <string name="settings_demat">Demat Account</string>
+    <string name="settings_brokerage">Brokerage</string>
+    <string name="settings_api_key">API Key</string>
+    <string name="settings_api_secret">API Secret</string>
+    <string name="settings_brokerage_accounts">Brokerage Accounts</string>
+    <string name="settings_add_brokerage">Add Brokerage</string>
+    <string name="settings_zerodha">Zerodha</string>
+    <string name="settings_groww">Groww</string>
+    <string name="settings_upstox">Upstox</string>
+    <string name="settings_angelone">Angel One</string>
+    <string name="settings_appearance">Appearance</string>
+    <string name="settings_language">Language</string>
+    <string name="settings_theme">Theme</string>
+    <string name="settings_light">Light</string>
+    <string name="settings_dark">Dark</string>
+    <string name="settings_system">System Default</string>
+    <string name="settings_notifications">Notifications</string>
+    <string name="settings_news_notifications">News Alerts</string>
+    <string name="settings_ipo_notifications">IPO Alerts</string>
+    <string name="settings_price_alerts">Price Alerts</string>
+    <string name="settings_daily_recap">Daily Recap</string>
+    <string name="settings_weekly_summary">Weekly Summary</string>
+    <string name="settings_security">Security</string>
+    <string name="settings_biometric">Biometric Lock</string>
+    <string name="settings_pin">PIN Lock</string>
+    <string name="settings_change_pin">Change PIN</string>
+    <string name="settings_data">Data</string>
+    <string name="settings_backup">Backup Data</string>
+    <string name="settings_restore">Restore Data</string>
+    <string name="settings_auto_sync">Auto Sync</string>
+    <string name="settings_sync_interval">Sync Interval</string>
+    <string name="settings_about">About</string>
+    <string name="settings_version">Version</string>
+    <string name="settings_privacy_policy">Privacy Policy</string>
+    <string name="settings_terms">Terms of Service</string>
+    <string name="settings_help">Help & Support</string>
+    <string name="settings_feedback">Send Feedback</string>
+
+    <!-- Common -->
+    <string name="common_save">Save</string>
+    <string name="common_cancel">Cancel</string>
+    <string name="common_delete">Delete</string>
+    <string name="common_edit">Edit</string>
+    <string name="common_add">Add</string>
+    <string name="common_search">Search</string>
+    <string name="common_filter">Filter</string>
+    <string name="common_sort">Sort</string>
+    <string name="common_refresh">Refresh</string>
+    <string name="common_loading">Loading...</string>
+    <string name="common_error">Error occurred</string>
+    <string name="common_retry">Retry</string>
+    <string name="common_done">Done</string>
+    <string name="common_ok">OK</string>
+    <string name="common_yes">Yes</string>
+    <string name="common_no">No</string>
+    <string name="common_close">Close</string>
+    <string name="common_share">Share</string>
+    <string name="common_copy">Copy</string>
+    <string name="common_select">Select</string>
+    <string name="common_clear">Clear</string>
+    <string name="common_apply">Apply</string>
+    <string name="common_reset">Reset</string>
+
+    <!-- Notifications -->
+    <string name="notification_news_title">New Market News</string>
+    <string name="notification_ipo_title">IPO Update</string>
+    <string name="notification_price_title">Price Alert</string>
+    <string name="notification_daily_recap_title">Daily Market Recap</string>
+    <string name="notification_weekly_summary_title">Weekly Portfolio Summary</string>
+    <string name="notification_action_read">Read</string>
+    <string name="notification_action_dismiss">Dismiss</string>
+    <string name="notification_action_view">View</string>
+
+    <!-- Errors -->
+    <string name="error_network">Network error. Please check your connection.</string>
+    <string name="error_server">Server error. Please try again later.</string>
+    <string name="error_auth">Authentication failed. Please login again.</string>
+    <string name="error_unknown">An unknown error occurred.</string>
+    <string name="error_biometric">Biometric authentication failed.</string>
+    <string name="error_encryption">Data encryption failed.</string>
+    <string name="error_database">Database error.</string>
+    <string name="error_sync">Sync failed. Please try again.</string>
+
+    <!-- Biometric -->
+    <string name="biometric_title">Biometric Authentication</string>
+    <string name="biometric_subtitle">Authenticate to access StockApp</string>
+    <string name="biometric_button">Use PIN</string>
+
+    <!-- Empty States -->
+    <string name="empty_portfolio">Start building your portfolio</string>
+    <string name="empty_ipo">No IPOs to show</string>
+    <string name="empty_news">No news available</string>
+    <string name="empty_screeners">No screeners created</string>
+    <string name="empty_ai">No AI analyses yet</string>
+    <string name="empty_watchlist">Add IPOs to your watchlist</string>
+    <string name="empty_holdings">No holdings in portfolio</string>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<full-backup-content>
+    <exclude domain="database" path="stockapp.db" />
+    <exclude domain="sharedpref" path="stockapp_preferences.xml" />
+    <exclude domain="sharedpref" path="encrypted_preferences.xml" />
+</full-backup-content>

@@ -1,0 +1,206 @@
+<resources>
+    <!-- App Name -->
+    <string name="app_name">स्टॉक पोर्टफोलियो मैनेजर</string>
+
+    <!-- General -->
+    <string name="loading">लोड हो रहा है...</string>
+    <string name="error">कुछ गलत हुआ</string>
+    <string name="retry">पुनः प्रयास करें</string>
+    <string name="cancel">रद्द करें</string>
+    <string name="save">सेव करें</string>
+    <string name="delete">हटाएं</string>
+    <string name="edit">संपादित करें</string>
+    <string name="add">जोड़ें</string>
+    <string name="search">खोजें</string>
+    <string name="filter">फिल्टर</string>
+    <string name="sort">सॉर्ट करें</string>
+    <string name="refresh">रिफ्रेश करें</string>
+    <string name="settings">सेटिंग्स</string>
+    <string name="language">भाषा</string>
+    <string name="theme">थीम</string>
+    <string name="notifications">सूचनाएं</string>
+    <string name="biometric_lock">बायोमेट्रिक लॉक</string>
+    <string name="auto_sync">ऑटो सिंक</string>
+    <string name="sync_interval">सिंक अंतराल</string>
+    <string name="export_data">डेटा एक्सपोर्ट करें</string>
+    <string name="clear_cache">कैश साफ़ करें</string>
+    <string name="delete_all_data">सभी डेटा हटाएं</string>
+    <string name="about">इस ऐप के बारे में</string>
+    <string name="version">संस्करण</string>
+
+    <!-- Home Screen -->
+    <string name="good_morning">सुप्रभात</string>
+    <string name="good_afternoon">शुभ दोपहर</string>
+    <string name="good_evening">शुभ संध्या</string>
+    <string name="good_night">शुभ रात्रि</string>
+    <string name="portfolio_snapshot">आपके पोर्टफोलियो का स्नैपशॉट</string>
+    <string name="total_value">कुल मूल्य</string>
+    <string name="day_change">दिन का परिवर्तन</string>
+    <string name="invested">निवेशित</string>
+    <string name="holdings">होल्डिंग्स</string>
+    <string name="quick_actions">त्वरित कार्य</string>
+    <string name="top_gainers">टॉप गेनर्स</string>
+    <string name="top_losers">टॉप लूजर्स</string>
+    <string name="upcoming_ipos">आगामी आईपीओ</string>
+    <string name="latest_news">नवीनतम समाचार</string>
+
+    <!-- Portfolio -->
+    <string name="portfolio">पोर्टफोलियो</string>
+    <string name="my_holdings">मेरी होल्डिंग्स</string>
+    <string name="quantity">मात्रा</string>
+    <string name="avg_price">औसत मूल्य</string>
+    <string name="current_price">वर्तमान मूल्य</string>
+    <string name="invested_value">निवेशित मूल्य</string>
+    <string name="current_value">वर्तमान मूल्य</string>
+    <string name="profit_loss">लाभ/हानि</string>
+    <string name="day_change_percent">दिन परिवर्तन %</string>
+    <string name="sync_portfolio">पोर्टफोलियो सिंक करें</string>
+    <string name="last_synced">अंतिम सिंक</string>
+    <string name="no_holdings">कोई होल्डिंग नहीं</string>
+    <string name="portfolio_empty">आपका पोर्टफोलियो खाली है। अपने ब्रोकर के साथ सिंक करके होल्डिंग्स प्राप्त करें।</string>
+
+    <!-- IPO -->
+    <string name="ipo_center">आईपीओ केंद्र</string>
+    <string name="track_apply_ipos">आईपीओ ट्रैक करें और आवेदन करें</string>
+    <string name="ipo_status">आईपीओ स्थिति</string>
+    <string name="open">खुला</string>
+    <string name="upcoming">आगामी</string>
+    <string name="allotment">आवंटन</string>
+    <string name="listed">लिस्टेड</string>
+    <string name="closed">बंद</string>
+    <string name="price_band">मूल्य बैंड</string>
+    <string name="lot_size">लॉट साइज़</string>
+    <string name="issue_size">इश्यू साइज़</string>
+    <string name="gmp">जीएमपी</string>
+    <string name="days_left">दिन शेष</string>
+    <string name="apply">आवेदन करें</string>
+    <string name="details">विवरण</string>
+    <string name="watchlist">वॉचलिस्ट</string>
+    <string name="add_to_watchlist">वॉचलिस्ट में जोड़ें</string>
+    <string name="remove_from_watchlist">वॉचलिस्ट से हटाएं</string>
+    <string name="registrar">रजिस्ट्रार</string>
+    <string name="listing_date">लिस्टिंग तिथि</string>
+    <string name="face_value">फेस वैल्यू</string>
+    <string name="pe_ratio">पी/ई अनुपात</string>
+    <string name="subscription">सब्सक्रिप्शन</string>
+    <string name="qib">क्यूआईबी</string>
+    <string name="hni">एचएनआई</string>
+    <string name="retail">रिटेल</string>
+
+    <!-- News -->
+    <string name="news_analysis">समाचार और विश्लेषण</string>
+    <string name="realtime_updates">आपके पोर्टफोलियो के लिए रियल-टाइम अपडेट</string>
+    <string name="daily_market_recap">दैनिक बाजार पुनर्कथन</string>
+    <string name="articles_analyzed">लेख विश्लेषित</string>
+    <string name="critical_alerts">महत्वपूर्ण अलर्ट</string>
+    <string name="high_impact_news">उच्च प्रभाव समाचार</string>
+    <string name="top_positive">शीर्ष सकारात्मक</string>
+    <string name="top_negative">शीर्ष नकारात्मक</string>
+    <string name="portfolio_stocks_in_news">समाचार में पोर्टफोलियो स्टॉक्स</string>
+    <string name="sentiment">भावना</string>
+    <string name="impact">प्रभाव</string>
+    <string name="positive">सकारात्मक</string>
+    <string name="negative">नकारात्मक</string>
+    <string name="neutral">तटस्थ</string>
+    <string name="critical">गंभीर</string>
+    <string name="high">उच्च</string>
+    <string name="medium">मध्यम</string>
+    <string name="low">कम</string>
+    <string name="mark_read">पढ़ा हुआ चिह्नित करें</string>
+    <string name="mark_unread">अपठित चिह्नित करें</string>
+
+    <!-- Screeners -->
+    <string name="screeners">स्क्रीनर्स</string>
+    <string name="find_opportunities">निवेश अवसर खोजें</string>
+    <string name="select_screener">स्क्रीनर चुनें</string>
+    <string name="run_screener">स्क्रीनर चलाएं</string>
+    <string name="this_weeks_picks">इस सप्ताह के पिक्स</string>
+    <string name="results">परिणाम</string>
+    <string name="score">स्कोर</string>
+    <string name="current">वर्तमान</string>
+    <string name="target">लक्ष्य</string>
+    <string name="stop_loss">स्टॉप लॉस</string>
+    <string name="confidence">आत्मविश्वास</string>
+    <string name="risk_level">जोखिम स्तर</string>
+    <string name="time_horizon">समय क्षितिज</string>
+    <string name="ai_generated">एआई जनित</string>
+    <string name="fundamental">मौलिक</string>
+    <string name="technical">तकनीकी</string>
+    <string name="momentum">मोमेंटम</string>
+    <string name="value">वैल्यू</string>
+    <string name="growth">ग्रोथ</string>
+    <string name="custom">कस्टम</string>
+    <string name="short_term">अल्पावधि</string>
+    <string name="medium_term">मध्यम अवधि</string>
+    <string name="long_term">दीर्घावधि</string>
+
+    <!-- AI -->
+    <string name="ai_insights">एआई अंतर्दृष्टि</string>
+    <string name="smart_analysis">एआई द्वारा संचालित स्मार्ट विश्लेषण</string>
+    <string name="ask_ai">एआई से पूछें</string>
+    <string name="portfolio_insights">पोर्टफोलियो अंतर्दृष्टि</string>
+    <string name="generate_insights">अंतर्दृष्टि उत्पन्न करें</string>
+    <string name="analysis_type">विश्लेषण प्रकार</string>
+    <string name="portfolio_review">पोर्टफोलियो समीक्षा</string>
+    <string name="stock_analysis">स्टॉक विश्लेषण</string>
+    <string name="market_outlook">बाजार दृष्टिकोण</string>
+    <string name="risk_assessment">जोखिम मूल्यांकन</string>
+    <string name="ipo_analysis">आईपीओ विश्लेषण</string>
+    <string name="news_summary">समाचार सारांश</string>
+    <string name="custom_query">कस्टम क्वेरी</string>
+    <string name="recommendation">सिफारिश</string>
+    <string name="buy">खरीदें</string>
+    <string name="sell">बेचें</string>
+    <string name="hold">होल्ड करें</string>
+
+    <!-- Settings -->
+    <string name="family_members">परिवार के सदस्य</string>
+    <string name="add_member">सदस्य जोड़ें</string>
+    <string name="brokerage_accounts">ब्रोकरेज खाते</string>
+    <string name="add_account">खाता जोड़ें</string>
+    <string name="connected">कनेक्टेड</string>
+    <string name="not_connected">कनेक्टेड नहीं</string>
+    <string name="connect">कनेक्ट करें</string>
+    <string name="disconnect">डिस्कनेक्ट करें</string>
+    <string name="api_key">एपीआई कुंजी</string>
+    <string name="api_secret">एपीआई सीक्रेट</string>
+    <string name="user_id">यूजर आईडी</string>
+    <string name="name">नाम</string>
+    <string name="pan_number">पैन नंबर</string>
+    <string name="demat_account">डीमैट खाता</string>
+    <string name="primary">प्राथमिक</string>
+    <string name="set_primary">प्राथमिक सेट करें</string>
+    <string name="light">लाइट</string>
+    <string name="dark">डार्क</string>
+    <string name="system">सिस्टम</string>
+    <string name="english">अंग्रेजी</string>
+    <string name="hindi">हिंदी</string>
+    <string name="minutes">मिनट</string>
+
+    <!-- Dialogs -->
+    <string name="add_family_member">परिवार का सदस्य जोड़ें</string>
+    <string name="connect_brokerage">ब्रोकरेज कनेक्ट करें</string>
+    <string name="enter_name">नाम दर्ज करें</string>
+    <string name="enter_pan">पैन नंबर दर्ज करें</string>
+    <string name="enter_demat">डीमैट खाता नंबर दर्ज करें</string>
+    <string name="enter_api_key">एपीआई कुंजी दर्ज करें</string>
+    <string name="enter_api_secret">एपीआई सीक्रेट दर्ज करें</string>
+    <string name="enter_user_id">यूजर आईडी/क्लाइंट आईडी दर्ज करें</string>
+
+    <!-- Notifications -->
+    <string name="ipo_opening">आईपीओ खुल रहा है</string>
+    <string name="ipo_closing_soon">आईपीओ जल्द बंद हो रहा है</string>
+    <string name="allotment_status">आवंटन स्थिति</string>
+    <string name="ipo_listed">आईपीओ लिस्टेड</string>
+    <string name="target_hit">लक्ष्य प्राप्त</string>
+    <string name="stop_loss_triggered">स्टॉप लॉस ट्रिगर</string>
+    <string name="significant_move">महत्वपूर्ण चाल</string>
+    <string name="daily_recap_ready">दैनिक पुनर्कथन तैयार</string>
+    <string name="weekly_summary_ready">साप्ताहिक सारांश तैयार</string>
+
+    <!-- Errors -->
+    <string name="network_error">नेटवर्क त्रुटि। कृपया अपना कनेक्शन जांचें।</string>
+    <string name="auth_error">प्रमाणीकरण विफल। कृपया पुनः प्रयास करें।</string>
+    <string name="sync_failed">सिंक विफल। कृपया पुनः प्रयास करें।</string>
+    <string name="no_data">कोई डेटा उपलब्ध नहीं</string>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data-extraction-rules>
+    <cloud-backup>
+        <exclude domain="database" path="stockapp.db" />
+        <exclude domain="sharedpref" path="stockapp_preferences.xml" />
+        <exclude domain="sharedpref" path="encrypted_preferences.xml" />
+    </cloud-backup>
+    <device-transfer>
+        <exclude domain="database" path="stockapp.db" />
+        <exclude domain="sharedpref" path="stockapp_preferences.xml" />
+        <exclude domain="sharedpref" path="encrypted_preferences.xml" />
+    </device-transfer>
+</data-extraction-rules>

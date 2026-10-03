@@ -1,0 +1,42 @@
+# Gradle
+.gradle/
+build/
+*/build/
+*/build.gradle.kts.d/
+
+# Local configuration
+local.properties
+*.keystore
+*.jks
+
+# IDE
+.idea/
+*.iml
+*.iws
+*.ipr
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Build outputs
+*.apk
+*.aab
+*.ap_
+
+# Test outputs
+test-results/
+coverage/
+
+# Cache
+.caches/
+*.cache
+
+# Temporary files
+*.tmp
+*.temp

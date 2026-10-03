@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Colors -->
+    <color name="primary">#1976D2</color>
+    <color name="primary_variant">#1565C0</color>
+    <color name="primary_container">#BBDEFB</color>
+    <color name="on_primary">#FFFFFF</color>
+    <color name="on_primary_container">#001D3A</color>
+
+    <!-- Secondary Colors -->
+    <color name="secondary">#00695C</color>
+    <color name="secondary_variant">#004D40</color>
+    <color name="secondary_container">#A7F3D0</color>
+    <color name="on_secondary">#FFFFFF</color>
+    <color name="on_secondary_container">#001F1B</color>
+
+    <!-- Tertiary Colors -->
+    <color name="tertiary">#7B1FA2</color>
+    <color name="tertiary_variant">#6A1B9A</color>
+    <color name="tertiary_container">#EADDFF</color>
+    <color name="on_tertiary">#FFFFFF</color>
+    <color name="on_tertiary_container">#2B0044</color>
+
+    <!-- Error Colors -->
+    <color name="error">#C62828</color>
+    <color name="error_container">#FCEEEE</color>
+    <color name="on_error">#FFFFFF</color>
+    <color name="on_error_container">#410002</color>
+
+    <!-- Surface Colors -->
+    <color name="surface">#FFFBFE</color>
+    <color name="on_surface">#1C1B1F</color>
+    <color name="surface_variant">#E7E0EC</color>
+    <color name="on_surface_variant">#49454F</color>
+
+    <!-- Outline Colors -->
+    <color name="outline">#79747E</color>
+    <color name="outline_variant">#CAC4D0</color>
+
+    <!-- Background -->
+    <color name="background">#FFFBFE</color>
+    <color name="on_background">#1C1B1F</color>
+
+    <!-- Custom App Colors -->
+    <color name="profit">#2E7D32</color>
+    <color name="profit_light">#E8F5E9</color>
+    <color name="loss">#C62828</color>
+    <color name="loss_light">#FBE9E7</color>
+    <color name="warning">#F57C00</color>
+    <color name="warning_light">#FFF3E0</color>
+    <color name="info">#1976D2</color>
+    <color name="info_light">#E3F2FD</color>
+
+    <!-- IPO Status Colors -->
+    <color name="ipo_open">#2E7D32</color>
+    <color name="ipo_upcoming">#1976D2</color>
+    <color name="ipo_allotment">#F57C00</color>
+    <color name="ipo_listed">#7B1FA2</color>
+    <color name="ipo_closed">#757575</color>
+
+    <!-- News Impact Colors -->
+    <color name="impact_critical">#C62828</color>
+    <color name="impact_high">#F57C00</color>
+    <color name="impact_medium">#1976D2</color>
+    <color name="impact_low">#757575</color>
+
+    <!-- News Sentiment Colors -->
+    <color name="sentiment_positive">#2E7D32</color>
+    <color name="sentiment_negative">#C62828</color>
+    <color name="sentiment_neutral">#757575</color>
+
+    <!-- Risk Level Colors -->
+    <color name="risk_low">#2E7D32</color>
+    <color name="risk_medium">#F57C00</color>
+    <color name="risk_high">#C62828</color>
+
+    <!-- Screener Type Colors -->
+    <color name="screener_fundamental">#1976D2</color>
+    <color name="screener_technical">#7B1FA2</color>
+    <color name="screener_momentum">#F57C00</color>
+    <color name="screener_value">#2E7D32</color>
+    <color name="screener_growth">#00695C</color>
+    <color name="screener_custom">#1976D2</color>
+
+    <!-- Divider -->
+    <color name="divider">#E0E0E0</color>
+
+    <!-- Shadow -->
+    <color name="shadow">#1A000000</color>
+</resources>
