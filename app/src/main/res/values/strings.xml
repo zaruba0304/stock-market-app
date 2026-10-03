@@ -64,7 +64,7 @@
 
     <!-- Additional IPO Strings -->
     <string name="ipo_center">IPO Center</string>
-    <string name="track_apply_ipos">Track & Apply IPOs</string>
+    <string name="track_apply_ipos">Track &amp; Apply IPOs</string>
     <string name="ipo_status">IPO Status</string>
     <string name="open">Open</string>
     <string name="upcoming">Upcoming</string>
@@ -146,7 +146,7 @@
     <string name="news_weekly_summary">Weekly Summary</string>
 
     <!-- Additional News Strings -->
-    <string name="news_analysis">News & Analysis</string>
+    <string name="news_analysis">News &amp; Analysis</string>
     <string name="realtime_updates">Real-time updates for your portfolio</string>
     <string name="daily_market_recap">Daily Market Recap</string>
     <string name="articles_analyzed">Articles Analyzed</string>
@@ -294,7 +294,7 @@
     <string name="settings_version">Version</string>
     <string name="settings_privacy_policy">Privacy Policy</string>
     <string name="settings_terms">Terms of Service</string>
-    <string name="settings_help">Help & Support</string>
+    <string name="settings_help">Help &amp; Support</string>
     <string name="settings_feedback">Send Feedback</string>
 
     <!-- Additional Settings Strings -->
