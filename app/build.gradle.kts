@@ -2,8 +2,8 @@ plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
     id("com.google.dagger.hilt.android")
-    id("org.jetbrains.kotlin.plugin.serialization") version "2.0.0"
-    id("org.jetbrains.kotlin.plugin.compose") version "2.0.0"
+    id("org.jetbrains.kotlin.plugin.serialization") version "1.9.24"
+        id("org.jetbrains.kotlin.plugin.compose") version "1.9.24"
     kotlin("kapt")
 }
 
@@ -39,11 +39,8 @@ android {
     }
 
     kotlinOptions {
-        jvmTarget = "17"
-            freeCompilerArgs += listOf(
-                "-Xopt-in=kotlin.RequiresOptIn",
-                "-language-version=1.9"
-            )
+            jvmTarget = "17"
+            freeCompilerArgs += listOf("-Xopt-in=kotlin.RequiresOptIn")
         }
 
     buildFeatures {
