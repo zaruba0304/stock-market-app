@@ -1,9 +1,8 @@
 plugins {
     id("com.android.application")
-    id("org.jetbrains.kotlin.android")
+    id("org.jetbrains.kotlin.android") version "1.9.24"
     id("com.google.dagger.hilt.android")
     id("org.jetbrains.kotlin.plugin.serialization") version "1.9.24"
-        id("org.jetbrains.kotlin.plugin.compose") version "1.5.14"
     kotlin("kapt")
 }
 
