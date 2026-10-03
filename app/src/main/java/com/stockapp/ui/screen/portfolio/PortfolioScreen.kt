@@ -240,13 +240,14 @@ fun PortfolioScreen(
             CommonComponents.EmptyState(
                 icon = { Icon(imageVector = androidx.compose.material.icons.Icons.Default.AccountBalanceWallet, contentDescription = "No holdings", tint = colorScheme.onSurfaceVariant, modifier = Modifier.size(64.dp)) },
                 title = "No Holdings",
-                message = holdings.isEmpty()
-                    ? "Your portfolio is empty. Sync with your broker to fetch holdings."
-                    : "No holdings match your current filter.",
-                actionText = if (holdings.isEmpty()) "Sync Portfolio" else null,
-                onAction = if (holdings.isEmpty()) { viewModel.syncPortfolio() } else null,
-                modifier = Modifier.fillMaxSize().padding(16.dp)
-            )
+                            message = if (holdings.isEmpty())
+                                "Your portfolio is empty. Sync with your broker to fetch holdings."
+                            else
+                                "No holdings match your current filter.",
+                            actionText = if (holdings.isEmpty()) "Sync Portfolio" else null,
+                            onAction = if (holdings.isEmpty()) { viewModel.syncPortfolio() } else null,
+                            modifier = Modifier.fillMaxSize().padding(16.dp)
+                        )
         } else {
             LazyColumn(
                 modifier = Modifier
